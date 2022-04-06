@@ -2,7 +2,7 @@
 ## nuovo progetto angular
 ng new angular-playground
 ## tailwind.css
-npm install -D tailwindcss postcss autoprefixer;
+npm install -D tailwindcss postcss autoprefixer;\
 npx tailwindcss init
 ## tailwind.config.js
 <code>
