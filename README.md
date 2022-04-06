@@ -1,3 +1,4 @@
+This is the *[Setup Guide](https://github.com/woodchucker/angular-playground/blob/main/setup.md)*.
 # AngularPlayground
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.

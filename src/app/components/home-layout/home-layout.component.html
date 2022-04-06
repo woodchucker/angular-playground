@@ -1,0 +1,12 @@
+<div class="flex overflow-hidden mt-3 w-full">
+  <div class="w-3/12 flex overflow-auto" style="background-color: #f1f2f7">
+    <!-- <ng-content></ng-content> -->
+    <ng-content select="[left-column]"></ng-content>
+  </div>
+    <div class="w-5/12 flex overflow-auto" style="background-color: #f1f2f7">
+      <ng-content select="[middle-column]"></ng-content>
+    </div>
+    <div class="w-4/12 flex overflow-auto" style="background-color: #f1f2f7">
+      <ng-content select="[right-column]"></ng-content>
+    </div>
+</div>

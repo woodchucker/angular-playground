@@ -1,0 +1,12 @@
+<p>user works!</p>
+<button type="button" (click)="sayHello($event)">Click Me</button>
+{{ helloText}}
+<div>{{ users | json }}</div>
+<ng-container *ngIf="true">
+  <div *ngFor="let user of users">
+    {{ user.name}}
+    <button type="button" (click)="goToUserDetail(user.id)">Dettaglio</button>
+
+  </div>
+</ng-container>
+
